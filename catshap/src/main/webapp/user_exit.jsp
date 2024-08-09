@@ -30,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <form action="/user-pass-change" method="post">
+                <form action="/user-exit-pass-confirm" method="post">
                     <div class="input-fields-parent">
                         <div class="input-fields">
                             <div class="find-input">
@@ -53,7 +53,7 @@
                         </div>
                         <div class="changePwBtnDiv">
                             <button id="accountExitBtn" class="accountExitBtn" type="button">탈퇴 동의</button>
-                            <button id="accountExitCancleBtn" class="accountExitCancleBtn" type="button">취소</button>
+                            <button id="userCancelBtn" class="accountExitCancleBtn" type="button">취소</button>
                         </div>
                     </div>
                 </form>

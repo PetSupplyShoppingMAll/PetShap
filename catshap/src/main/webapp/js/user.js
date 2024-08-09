@@ -211,6 +211,11 @@ $(function() {
 		window.location.href = 'main.jsp';
 	});
 
+	// 회원 탈퇴 취소 버튼을 클릭한 경우
+	$('#toLoginBtn').on('click', () => {
+		window.location.href = 'user_mypage.jsp';
+	});
+	
 });
 
 // 이름 유효성 검사 메소드
